@@ -1,0 +1,388 @@
+header .header-background {
+  background-color: #0095cf;
+  width: 100%;
+  height: 20vh;
+}
+
+header .header-background .container-background .main-header .row a {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+}
+
+header .header-background .container-background .main-header .row a:hover {
+  color: coral;
+}
+
+header .header-background .container-background .main-header .row .img img {
+  width: 100%;
+  height: 100%;
+}
+
+header .header-background .container-background .main-header .row .text-style {
+  color: #fff;
+  font-size: 26px;
+}
+
+header .header-background .container-background .main-header .row .live-video i {
+  color: red;
+}
+
+header .header-background .container-background .main-header .row .search .background-color {
+  background-color: #fff !important;
+  height: 100%;
+}
+
+header .header-background .container-background .main-header .row .search i {
+  background-color: #fff !important;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+header .header-background .container-background #secondary-header {
+  font-size: 16px;
+}
+
+header .header-background .container-background #secondary-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+hr {
+  color: #fff;
+  background-color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.side-social {
+  position: fixed;
+  top: 200px;
+  left: 1420px;
+  text-align: center;
+  z-index: 2;
+}
+
+.side-social li {
+  list-style: none;
+  padding: 10px 0;
+  text-align: center;
+  width: 30px;
+  background: #0095cf;
+}
+
+.side-social li:nth-child(1) {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.side-social li:nth-child(5) {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.side-social a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.side-social a:hover {
+  opacity: 0.9;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 54px;
+  right: 20px;
+  color: #f3f3f3;
+  font-size: 20px;
+}
+
+#cross-fast a {
+  text-decoration: none;
+  color: #167ea7;
+}
+
+#cross-fast .cross-fast-height {
+  height: 10vh;
+}
+
+#cross-fast .background-color {
+  background: #a8e6ff;
+  border-radius: 5px;
+}
+
+#cross-fast .col-private {
+  width: 11%;
+}
+
+#cross-fast .temprature {
+  background-color: #006188;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#cards {
+  height: 60vh;
+}
+
+#cards img {
+  border-radius: 10px;
+}
+
+#cards .card-background-1 {
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none;
+}
+
+#cards .card-background-1 img {
+  height: 100%;
+}
+
+#cards .button-1 {
+  background: #0095cf;
+  border: none;
+  padding: 5px 40px;
+  margin-bottom: 20px;
+}
+
+#cards .card-background-2 {
+  height: 48%;
+  margin-bottom: 5%;
+  border: none !important;
+}
+
+#cards .card-background-2 img {
+  height: 100%;
+  opacity: 0.4;
+  border: none !important;
+}
+
+#cards .card-background-2 .text {
+  margin-top: -15px;
+}
+
+#cards .card-background-2 .text p {
+  line-height: 1.2;
+}
+
+#cards .card-background-2 .text h5 {
+  line-height: 1.4;
+  font-size: 28px;
+}
+
+#cards .card-background-3 {
+  height: 48%;
+  border: none;
+}
+
+#cards .card-background-3 img {
+  height: 100%;
+  opacity: 0.4;
+}
+
+#cards .card-background-3 .text {
+  margin-top: -15px;
+}
+
+#cards .card-background-3 .text p {
+  line-height: 1.2;
+}
+
+#cards .card-background-3 .text h5 {
+  line-height: 1.4;
+  font-size: 28px;
+}
+
+#cards .side-bar {
+  height: 52vh;
+  overflow-y: auto;
+  border: 1px solid #0095cf;
+  border-radius: 5px;
+  color: #0095cf;
+}
+
+#cards .side-bar h1 {
+  color: #008ac0;
+}
+
+#cards .side-bar .content-text {
+  overflow-x: hidden;
+  margin: 5px 0px;
+  border: #0095cf 1px solid;
+  border-radius: 10px;
+}
+
+#call {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#call p {
+  margin-top: -60px;
+}
+
+#news-advertisment {
+  height: 40vh;
+}
+
+#news-advertisment a {
+  text-decoration: none;
+}
+
+#news-advertisment .suggestions-scroll {
+  height: 20%;
+}
+
+#news-advertisment .news-advs {
+  height: 80%;
+}
+
+#news-advertisment .border-style {
+  border: none;
+}
+
+#news-advertisment .advertisment img {
+  height: 16rem;
+}
+
+#chanel {
+  height: 70vh;
+  color: #004561;
+}
+
+#chanel .chanel-tv {
+  height: 50vh;
+  position: relative;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+#chanel .chanel-tv img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.2;
+}
+
+#chanel .chanel-tv .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  z-index: 1;
+}
+
+#chanel .chanel-tv .icon a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#chanel .chanel-tv .icon a:hover {
+  opacity: 0.9;
+}
+
+#chanel .mednews {
+  margin-right: 40px;
+}
+
+#chanel .btn-color {
+  background: #fff;
+  color: #0095cf;
+  padding-left: 10px 20px;
+  width: 30%;
+  height: 6vh;
+  font-weight: bold;
+  border: #0095cf 1px solid;
+}
+
+#chanel .white-board {
+  margin-top: 20px;
+  height: 42vh;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#archive {
+  height: 70vh;
+}
+
+#archive .col-custom {
+  width: 15.6%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background: #0095cf;
+  border: none;
+}
+
+footer .footer-background {
+  height: 20vh;
+}
+
+footer li {
+  margin-left: -30px;
+  padding: 10px 0;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .footer-background {
+  height: 60vh;
+  background: #0095cf;
+}
+
+footer .footer-background .col-custom {
+  width: 22%;
+  color: #fff;
+}
+
+footer .footer-background .mail-box .mail {
+  border: none;
+  background: #0095cf;
+  border-bottom: 1px solid #616161;
+  border-radius: 0;
+  padding-bottom: 20px;
+}
+
+footer .footer-background .mail-box .background-mail {
+  height: 100%;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #0095cf;
+  cursor: pointer;
+}
+
+footer .footer-background .mail-box .background-mail i {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+footer .footer-background .mail-box .background-mail:hover {
+  opacity: 0.9;
+}
+
+footer .social-icons a {
+  margin-top: 20px;
+  display: inline-block;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
