@@ -1,0 +1,102 @@
+@import"../variables/variables";
+
+// Header
+
+header{
+    .header-background {
+        background-color: $primary-color;
+        color: $font-color;
+        ul{
+            border: none;
+             li{
+                 a {    
+                 color: $font-color !important;
+                border: none;
+                 }
+            }
+         }          
+    }
+}
+
+// Main
+// Section Map Introduction
+#map-intro {
+    .map-intro-background {
+        background: $secondary-color;
+        height: 42vh;
+        .text-map{
+            height: 100%;
+            .map {
+                height: 30vh;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+// Section Cards
+#cards {
+    img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .button-color {
+        background: $btn-color;
+        border: none;
+        &:hover {
+                opacity: 0.8;
+        }
+    }
+}
+
+// Footer 
+footer {
+    .footer-background-1 {
+        background-color: $primary-color;  
+        height: 45vh;
+    }
+    #main-footer {
+        background-color: $primary-color;
+        color: $font-color;
+        .font-style {
+            margin-left: -50px;
+            p {
+                line-height: 1;
+                font-size: 14px;
+            }
+        }
+        ul {
+            li{
+                margin-left:-30px;
+                list-style: none;
+                font-size: 20px;
+                a{
+                    // Facebook Icon
+                    i.f {
+                        color: rgb(78, 78, 255);
+                    }
+                    // Twitter Icon
+                    i.t {
+                        color: rgb(78, 205, 255);
+                    }
+                    // Google Icon
+                    i.g {
+                        color: rgb(245, 56, 56);
+                    }
+                    // RSS icon
+                    i.r {
+                        color: coral;
+                    }
+                    text-decoration: none;
+                    color: $font-color;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}

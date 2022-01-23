@@ -1,0 +1,96 @@
+header .header-background {
+  background-color: #333;
+  color: #fff;
+}
+
+header .header-background ul {
+  border: none;
+}
+
+header .header-background ul li a {
+  color: #fff !important;
+  border: none;
+}
+
+#map-intro .map-intro-background {
+  background: #f3f3f3;
+  height: 42vh;
+}
+
+#map-intro .map-intro-background .text-map {
+  height: 100%;
+}
+
+#map-intro .map-intro-background .text-map .map {
+  height: 30vh;
+}
+
+#map-intro .map-intro-background .text-map .map img {
+  height: 100%;
+  width: 100%;
+}
+
+#cards img {
+  height: 50%;
+  width: 100%;
+}
+
+#cards .button-color {
+  background: #ff8f66;
+  border: none;
+}
+
+#cards .button-color:hover {
+  opacity: 0.8;
+}
+
+footer .footer-background-1 {
+  background-color: #333;
+  height: 45vh;
+}
+
+footer #main-footer {
+  background-color: #333;
+  color: #fff;
+}
+
+footer #main-footer .font-style {
+  margin-left: -50px;
+}
+
+footer #main-footer .font-style p {
+  line-height: 1;
+  font-size: 14px;
+}
+
+footer #main-footer ul li {
+  margin-left: -30px;
+  list-style: none;
+  font-size: 20px;
+}
+
+footer #main-footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer #main-footer ul li a i.f {
+  color: #4e4eff;
+}
+
+footer #main-footer ul li a i.t {
+  color: #4ecdff;
+}
+
+footer #main-footer ul li a i.g {
+  color: #f53838;
+}
+
+footer #main-footer ul li a i.r {
+  color: coral;
+}
+
+footer #main-footer ul li a:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */
